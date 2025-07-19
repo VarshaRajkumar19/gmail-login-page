@@ -1,0 +1,104 @@
+
+.mail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+  font-family: 'Roboto', sans-serif;
+}
+
+.mail-card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  max-width: 90%;
+  padding: 30px;
+  gap: 40px;
+}
+
+.mail-left {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.gmail-text {
+  font-size: 20px;
+  color: rgb(95, 99, 104);
+  margin-bottom: 10px;
+}
+
+.mail-title {
+  font-size: 24px;
+  color: rgb(32, 33, 36);
+  margin: 10px 0;
+}
+
+.mail-subtitle {
+  font-size: 14px;
+  color: rgb(95, 99, 104);
+  line-height: 1.5;
+}
+
+.mail-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.email-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid rgb(218, 220, 224);
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.email-input:focus {
+  border: 2px solid rgb(26, 115, 232);
+}
+
+.info-text {
+  font-size: 12px;
+  color: rgb(95, 99, 104);
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-btn {
+  background-color: rgb(26, 115, 232);
+  color: white;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.next-btn:hover {
+  background-color: rgb(18, 90, 200);
+}
