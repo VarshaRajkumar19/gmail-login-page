@@ -1,0 +1,118 @@
+/* Signin.css */
+
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+  font-family: 'Roboto', sans-serif;
+}
+
+.signin-card {
+  background-color: white;
+  width: 400px;
+  max-width: 90%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+}
+
+.mail-text {
+  font-size: 20px;
+  color: rgb(95, 99, 104);
+}
+
+.signin-title {
+  font-size: 24px;
+  color: rgb(32, 33, 36);
+  margin: 10px 0;
+}
+
+.subtext {
+  font-size: 14px;
+  color: rgb(95, 99, 104);
+  margin-bottom: 20px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid rgb(218, 220, 224);
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input[type="email"]:focus {
+  border: 2px solid rgb(26, 115, 232); /* Google blue */
+}
+
+.forgot-link {
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgb(26, 115, 232);
+  cursor: pointer;
+}
+
+.description {
+  font-size: 12px;
+  color: rgb(95, 99, 104);
+  line-height: 1.5;
+}
+
+.learn-link {
+  color: rgb(26, 115, 232);
+  cursor: pointer;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.create-btn {
+  background: none;
+  border: none;
+  color: rgb(26, 115, 232);
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.create-btn a {
+  color: rgb(26, 115, 232);
+  text-decoration: none;
+}
+
+.next-btn {
+  background-color: rgb(26, 115, 232);
+  color: white;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.next-btn:hover {
+  background-color: rgb(18, 90, 200);
+}
